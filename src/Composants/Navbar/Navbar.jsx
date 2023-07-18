@@ -22,7 +22,7 @@ const Navbar = () => {
       <header className="header flex">
 
       <div className="logoDiv">
-        <a href="#" className="logo flex text-decoration-none text-primary fs-6">
+        <a href="/" className="logo flex">
             <h1> <MdOutlineTravelExplore className="icon " /> <span className="y">Travel.</span> </h1>
         </a>
       </div>
@@ -30,39 +30,39 @@ const Navbar = () => {
   <div className={active}>
     <ul className="navLists flex">
         <li className="navItem">
-            <a href="#" className="navLink text-decoration-none">Home</a>
+            <a href="/" className="navLink ">Home</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink mx-3 text-decoration-none">Packages</a>
+            <a href="/" className="navLink">Packages</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink mx-3 text-decoration-none text-transparent">Shop</a>
+            <a href="/" className="navLink">Shop</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink mx-3 text-decoration-none text-transparent">About</a>
+            <a href="/" className="navLink">About</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink mx-3 text-decoration-none text-transparent">Pages</a>
+            <a href="/" className="navLink">Pages</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink mx-3 text-decoration-none text-transparent">News</a>
+            <a href="/" className="navLink">News</a>
         </li>
         <li className="navItem">
-            <a href="#" className="navLink ms-3 text-decoration-none text-transparent">Contacts</a>
+            <a href="/" className="navLink">Contacts</a>
         </li>
         <button className="btn ">
-            <a href="#" className="text-decoration-none text-white rounded p-2 bg-primary"><span >Book Now</span></a>
+            <a href="/" ><span >Book Now</span></a>
         </button>
     </ul>
 
     <div onClick={removeNavbar} className="closeNavbar">
-        <AiFillCloseCircle className="icon d-lg-none" />
+        <AiFillCloseCircle className="icon" />
     </div>
   </div>
 
 
   <div onClick={showNav} className="toggleNavbar">
-    <TbGridDots className="icon d-lg-none" />
+    <TbGridDots className="icon" />
   </div>
       </header>
     </section>

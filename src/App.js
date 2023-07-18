@@ -2,7 +2,6 @@ import Home from './Composants/Home/Home';
 import Navbar from './Composants/Navbar/Navbar';
 import Main from './Composants/Main/Main';
 import Footer from './Composants/Footer/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
